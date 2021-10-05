@@ -36,7 +36,6 @@ export function TaskList() {
     } : task);
 
     setTasks(newTasks);
-    console.log(id)
   }
 
   function handleRemoveTask(id: number) {
