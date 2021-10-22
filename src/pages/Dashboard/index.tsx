@@ -32,7 +32,7 @@ export function Dashboard() {
     }
 
     loadFoods();
-  }, [])
+  }, []);
 
   const handleAddFood = useCallback(
     async (food) => {
