@@ -1,32 +1,34 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { MdShoppingBasket } from 'react-icons/md';
+import { Component } from 'react';
+import { FiPlusSquare } from 'react-icons/fi';
 
-import logo from '../../assets/images/logo.svg';
-import { Container, Cart } from './styles';
-import { useCart } from '../../hooks/useCart';
+import { Container } from './styles';
+import Logo from '../../assets/logo.svg';
 
-const Header = (): JSX.Element => {
-  const { cart } = useCart();
-  const cartSize = cart.length;
+interface HeaderProps {
+  openModal: () => void;
+}
+
+export function Header({ openModal }: HeaderProps) {
 
   return (
     <Container>
-      <Link to="/">
-        <img src={logo} alt="Rocketshoes" />
-      </Link>
-
-      <Cart to="/cart">
-        <div>
-          <strong>Meu carrinho</strong>
-          <span data-testid="cart-size">
-            {cartSize === 1 ? `${cartSize} item` : `${cartSize} itens`}
-          </span>
-        </div>
-        <MdShoppingBasket size={36} color="#FFF" />
-      </Cart>
+      <header>
+        <img src={Logo} alt="GoRestaurant" />
+        <nav>
+          <div>
+            <button
+              type="button"
+              onClick={openModal}
+            >
+              <div className="text">Novo Prato</div>
+              <div className="icon">
+                <FiPlusSquare size={24} />
+              </div>
+            </button>
+          </div>
+        </nav>
+      </header>
     </Container>
   );
-};
 
-export default Header;
+};

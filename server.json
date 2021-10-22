@@ -1,66 +1,60 @@
 {
-  "stock": [
+  "foods": [
     {
       "id": 1,
-      "amount": 3
+      "name": "tetet",
+      "description": "teste",
+      "price": "25.2",
+      "available": false,
+      "image": "http://www.aqcez.com.br/wp-content/uploads/2019/01/Logo-Aqcez-Design-e-Build-website.png"
     },
     {
       "id": 2,
-      "amount": 5
+      "name": "Veggie",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.95",
+      "available": true,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
       "id": 3,
-      "amount": 2
+      "name": "A la Camarón",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.92",
+      "available": true,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
     {
-      "id": 4,
-      "amount": 1
+      "image": "http://www.aqcez.com.br/wp-content/uploads/2019/01/Logo-Aqcez-Design-e-Build-website.png",
+      "name": "tetet",
+      "price": "123",
+      "description": "teste",
+      "available": true,
+      "id": 4
     },
     {
-      "id": 5,
-      "amount": 5
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/101/040/356212/356212_original.jpg?mode=crop&width=500&height=400",
+      "name": "teste sendo feito",
+      "price": "343.45",
+      "description": "macarrão",
+      "available": true,
+      "id": 5
     },
     {
-      "id": 6,
-      "amount": 10
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/101/040/356212/356212_original.jpg?mode=crop&width=500&height=400",
+      "name": "outro macarrão",
+      "price": "200",
+      "description": "teste",
+      "available": true,
+      "id": 6
     },
     {
-      "id": 2,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/101/040/356212/356212_original.jpg?mode=crop&width=500&height=400",
+      "name": "moda italiana",
+      "price": "233",
+      "description": "outro teste",
+      "available": true,
+      "id": 7
     }
   ]
 }
